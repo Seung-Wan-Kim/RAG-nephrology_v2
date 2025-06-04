@@ -7,3 +7,6 @@ langchain-openai
 faiss-cpu
 sentence-transformers
 python-docx
+pillow
+pytesseract
+pdf2image
