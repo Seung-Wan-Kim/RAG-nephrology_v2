@@ -5,8 +5,9 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 import pickle
 import os
 
-# 수정된 경로
-TEXT_PATH = "data/docs/aki_guide_ko_summary.txt"
+# 문서 경로
+# 저장소에는 문서가 프로젝트 루트에 위치하므로 해당 경로를 사용한다.
+TEXT_PATH = "aki_guide_ko_summary.txt"
 VECTOR_STORE_DIR = "vector_store_aki_ko"
 
 # 문서 확인
