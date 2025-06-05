@@ -8,7 +8,9 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.chat_models import ChatOpenAI
 
 # 설정
-VECTOR_STORE_PATH = "nephro_rag_v2/vector_store_aki_ko"  # 디렉토리 경로로 수정
+# 현재 저장소 구조상 인덱스 파일(index.faiss, index.pkl)이
+# 프로젝트 루트에 위치하므로 해당 경로를 사용한다.
+VECTOR_STORE_PATH = "."  # 벡터 스토어가 위치한 디렉토리 경로
 OPENAI_API_KEY = "your_api_key_here"  # 필요시 환경변수로 대체
 
 # 전체 수치 항목 목록 (20여 개 항목)
